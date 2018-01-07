@@ -40,7 +40,7 @@ p {
 	overflow: hidden;
 }
 .face {
-	position: center;
+	position: relative;
 	left: 0px;
 	top: 0px;
 	z-index: 0;

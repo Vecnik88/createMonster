@@ -2,38 +2,42 @@ $(document).ready(function() {
 	lighting_one(4000);
 	lighting_two(5000);
 	lighting_three(7000);
-	
+
 	var headClix = 0, eyeClix = 0, noseClix = 0, mouthClix = 0;
 	$("#head").click(function() {
-		$("#lighting1").fadeIn(250).fadeOut(250);
 		console.log("head");
 		if (headClix < 9) {
+			$(this).animate({left: "-=367"}, 500);
 			headClix += 1;
 		} else {
+			$(this).animate({left: "0px"}, 500);
 			headClix = 0;
 		}
 	});
 	$("#eyes").click(function() {
-		console.log("eyes");
 		if (eyeClix < 9) {
+			$(this).animate({left: "-=367"}, 500);
 			eyeClix += 1;
 		} else {
+			$(this).animate({left: "0px"}, 500);
 			eyeClix = 0;
 		}
 	});
 	$("#nose").click(function() {
-		console.log("nose");
 		if (noseClix < 9) {
+			$(this).animate({left: "-=367"}, 500);
 			noseClix += 1;
 		} else {
+			$(this).animate({left: "0px"}, 500);
 			noseClix = 0;
 		}
 	});
 	$("#mouth").click(function() {
-		console.log("mouth");
 		if (mouthClix < 9) {
+			$(this).animate({left: "-=367"}, 500);
 			mouthClix += 1;
 		} else {
+			$(this).animate({left: "0px"}, 500);
 			mouthClix = 0;
 		}
 	});
