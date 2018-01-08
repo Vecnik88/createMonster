@@ -1,2 +1,3 @@
 Simple game "Create Monster"
-![Screenshot](screenshot.png)
+
+![alt text](screenshots/screenshot.png)
